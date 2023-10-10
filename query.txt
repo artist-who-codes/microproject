@@ -1,0 +1,3 @@
+create table logistics(item varchar(20), quantity int(5), date  varchar(20), quality varchar(20), transport varchar(20), country  varchar(20));
+
+insert into logistics values('Crude Oil', '7 Tons', '3rd Jan', 'Good', 'Ship', 'Afghanistan'),('Automobiles', '10 Tons', '15 Jan', 'Excellent', 'Ship', 'America'),('Wine', '5 Tons','3rd Feb', 'Bad', 'Aeroplane', 'England');
